@@ -11,6 +11,8 @@ import AppCenterAnalytics
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var featureOneLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -29,9 +31,12 @@ class ViewController: UIViewController {
     }
 
     @IBAction func didTapCrashButton(_ sender: UIButton) {
-        Analytics.trackEvent("crash_button_tapped",
-                             withProperties: ["property key" : "property value"])
-        Crashes.generateTestCrash()
+        
+        featureOneLabel.text = "hello"
+        
+//        Analytics.trackEvent("crash_button_tapped",
+//                             withProperties: ["property key" : "property value"])
+//        Crashes.generateTestCrash()
     }
 }
 

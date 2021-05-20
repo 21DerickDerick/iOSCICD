@@ -23,14 +23,26 @@
                                     <action selector="didTapCrashButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fyt-hF-RJA"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="feature-1 label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aMS-Ed-XSa">
+                                <rect key="frame" x="0.0" y="44" width="414" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="JCI-Cw-ejD" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="cRn-36-xzY"/>
+                            <constraint firstItem="aMS-Ed-XSa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="chH-rk-zhP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aMS-Ed-XSa" secondAttribute="trailing" id="hpQ-AR-gqe"/>
                             <constraint firstItem="JCI-Cw-ejD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jwY-pg-Vkh"/>
+                            <constraint firstItem="aMS-Ed-XSa" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="nVz-l2-cYe"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="featureOneLabel" destination="aMS-Ed-XSa" id="Wzm-4E-pUR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
