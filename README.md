@@ -1,3 +1,3 @@
 # iOSCICD
 
-[![Build status](https://build.appcenter.ms/v0.1/apps/e77a0e0d-94b9-45b0-9369-60fcc83c9d15/branches/dev/badge)](https://appcenter.ms)
+[![Build status](https://build.appcenter.ms/v0.1/apps/00b08b3e-23ca-4424-84f9-48553432a825/branches/dev/badge)](https://appcenter.ms)
