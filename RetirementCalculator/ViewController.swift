@@ -13,6 +13,8 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        print("Code for feature 3")
     }
     
     override func viewDidAppear(_ animated: Bool) {
