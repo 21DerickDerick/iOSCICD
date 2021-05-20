@@ -155,7 +155,6 @@
 				AF8AA49F2B11D6C464677347 /* Pods-RetirementCalculatorTests.debug.xcconfig */,
 				E7549BF0B2754C8E490DCA25 /* Pods-RetirementCalculatorTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -551,6 +550,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = YMGP992CD8;
 				INFOPLIST_FILE = RetirementCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -571,6 +571,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = YMGP992CD8;
 				INFOPLIST_FILE = RetirementCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
